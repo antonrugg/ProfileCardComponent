@@ -1,0 +1,258 @@
+
+/* .container{
+    background: url(../images/bg-pattern-top.svg), hsl(225, 100%, 94%);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 100% auto; */
+
+    *{
+        box-sizing: border-box;
+        margin: 0;
+        font-family: 'Red Hat Display', sans-serif;
+    }
+
+/* :root {
+    --mobile-width: 375px;
+    --desktop-width: 1440px;
+
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+    /* own */
+    /* --very-light-gray: hsl(0, 0%, 98%);
+    --light-gray: hsl(0, 0%, 88%);
+
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    color: var(--dark-gray);
+/* } */ */ */
+
+body {
+    
+}
+
+
+
+/* .container{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(185, 75%, 39%);
+    background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
+    background-position: -320px -490px, 690px 379px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 425px;
+    width: 400px;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+.topSection{
+    display: flex;
+    justify-content: center;
+    height: 75%;
+    background-color: white;
+    position: absolute;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-bottom: 0.09rem solid lightgray;
+    
+}
+
+.topBackground{
+    display: flex;
+    height: 150px;
+    width: 400px;
+    background-color: blue;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.proPic{
+    position: absolute;
+    align-self: center;
+    border-radius: 10rem;
+    width: 5.8rem;
+    height: 5.8rem;
+    border: 0.2rem solid white;
+
+}
+
+.stats{
+    /* display: flex; */
+    /* position: absolute;
+    align-self: flex-end;
+}
+
+.topStats{
+    display: flex;
+    margin-bottom: 2rem;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+}
+
+.name{
+    padding-top: 2rem;
+}
+
+.age{
+    font-size: 30px;
+}
+
+.city{
+    padding-top: 0.5rem;
+    font-size: 20px;
+}
+
+.bottomSection{
+  
+
+ */ 
+
+ .container{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(185, 75%, 39%);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
+    background-position: -50% +200%, +150% -150%;
+    background-repeat: no-repeat;
+ }
+
+ .card{
+    height: 415px;
+    width: 390px;
+    background-color: hsl(185, 75%, 39%);
+    border-radius: 1rem;
+    position: absolute;
+    box-shadow: -5px 10px 20px 8px #636262;
+ }
+
+ .topSection{
+    position: relative;
+    border-radius: 18px 18px 0 0;
+    height: 75%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    border-bottom: solid 1px lightgray;
+    background-image: url("../images/bg-pattern-card.svg");
+    background-size: 100% 37%;
+    background-repeat: no-repeat;
+
+ }
+
+
+ .proPic{
+    position: relative;
+    align-self: center;
+    border-radius: 10rem;
+    margin-bottom: 1.5rem;
+ }
+
+ .name{
+     position: relative;
+     text-align: center;
+     margin-bottom: 1rem;
+     font-size: 18px;
+     font-weight: 900;
+     
+ }
+
+ .age{
+     margin-left: 0.5rem;
+     font-size: 18px;
+     font-weight: 700;
+     color: hsl(0, 0%, 59%);
+ }
+
+ .city{
+     position: relative;
+     text-align: center;
+     font-size: 16px;
+     font-weight: 700;
+     color: hsl(0, 0%, 59%);
+ }
+
+ 
+
+
+
+
+
+ .bottomSection{
+     position: relative;
+     border-radius: 0 0 18px 18px;
+     height: 25%;
+     background-color: white;
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ .followers{
+     align-self: center;
+ }
+
+ #followersCounter{
+     font-size: 20px;
+     font-weight: 900;
+     color: black;
+ }
+
+ #followersTag{
+     font-size: 12px;
+     font-weight: 700;
+     color: hsl(0, 0%, 59%);
+ }
+
+ .likes{
+     align-self: center;
+ }
+
+  #likesCounter{
+     font-size: 20px;
+     font-weight: 900;
+     color: black;
+ }
+
+ #likesTag{
+     font-size: 12px;
+     font-weight: 700;
+     color: hsl(0, 0%, 59%);
+ }
+
+ .post{
+     align-self: center;
+ }
+
+  #postCounter{
+     font-size: 20px;
+     font-weight: 900;
+     color: black;
+ }
+
+ #postTag{
+     font-size: 12px;
+     font-weight: 700;
+     color: hsl(0, 0%, 59%);
+ }
+
+ 
+
+
+
+
